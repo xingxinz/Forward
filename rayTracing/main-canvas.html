@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS生成小球</title>
+    <style>
+        .wrap{
+            display: flex;
+            flex-direction: column;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap canvas{
+            border: 2px solid gray;
+            margin: 20px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <canvas height="600px" width="600px" id="myCanvas"></canvas>
+        <canvas height="600px" width="600px" id="depthCanvas"></canvas>
+        <canvas height="600px" width="600px" id="normalCanvas"></canvas>
+        <canvas height="600px" width="600px" id="materialCanvas"></canvas>
+    </div>
+</body>
+
+<script src="fillCanvas.js"></script>
+<script src="based.js"></script>
+<script src="ray-casting.js"></script>
+<script src="objects.js"></script>
+<script src="material.js"></script>
+<script src="rd_depthInstance.js"></script>
+<script src="rd_normalInstance.js"></script>
+<script src="rd_materialInstance.js"></script>
+</html>
