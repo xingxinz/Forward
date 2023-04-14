@@ -13,3 +13,5 @@
 - 深度测试 rd_depthInstance
 - 法向量测试 rd_normalInstance
 - 漫反射测试（可扩展光照模型）rd_materialInstance
+
+效果链接：https://xingxinz.github.io/Forward/main-canvas.html
